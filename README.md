@@ -46,7 +46,7 @@ To run the script, follow these steps:
 
 1. Clone the repository to your local machine.
 
-2 .To run the script, you can execute the `main.py` file from your command line:
+2. To run the script, you can execute the `main.py` file from your command line:
 
     ```
     python main.py
