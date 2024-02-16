@@ -53,11 +53,11 @@ To run the script, follow these steps:
     ```
 
 3. this file:
-    '''Imports the WikipediaScraper class from the `scr.scraper` module.
-    '''Creates an instance of the `WikipediaScraper` class.
-    '''Uses the `get_countries()` method to retrieve a list of countries.
-    '''Uses the `get_leaders(country)` method to get information about leaders for a specific country.
-    '''Saves the collected data to a JSON file using the `save(data, filename)` method.
+    - Imports the WikipediaScraper class from the `scr.scraper` module.
+    - Creates an instance of the `WikipediaScraper` class.
+    - Uses the `get_countries()` method to retrieve a list of countries.
+    - Uses the `get_leaders(country)` method to get information about leaders for a specific country.
+    - Saves the collected data to a JSON file using the `save(data, filename)` method.
 
 ## Timeline
 
