@@ -51,6 +51,13 @@ To run the script, follow these steps:
     ```
     python main.py
     ```
+    
+3. this file:
+    Import the WikipediaScraper class from the `scr.scraper` module.
+    Create an instance of the `WikipediaScraper` class.
+    Use the `get_countries()` method to retrieve a list of countries.
+    Use the `get_leaders(country)` method to get information about leaders for a specific country.
+    Save the collected data to a JSON file using the `save(data, filename)` method.
 
 ## Timeline
 
