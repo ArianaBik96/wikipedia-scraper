@@ -1,2 +1,62 @@
-# wikipedia-scraper
-A scraper that builds a JSON file with the political leaders of each country
+# OpenSpace Organizer
+[![forthebadge made-with-python](https://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
+
+## Description
+
+This script is designed to scrape Wikipedia for information about countries and their leaders. It utilizes the Wikipedia API to gather data, including country names and leader details, and saves the collected information into a JSON file.
+
+## Repo structure
+
+```
+.
+├── src/
+    └──scraper.py
+│    
+├── .gitignore
+├── leaders.json
+├── main.py
+├── README.md
+└── requirements.txt
+```
+
+## Installation
+
+To run the script, follow these steps:
+
+1. Clone this repository:
+
+    ```bash
+    git clone <repository-url>
+    ```
+
+2. Install the required dependencies:
+
+    ```bash
+    pip install requests beautifulsoup4
+    ```
+
+3. Run the script:
+
+    ```bash
+    python main.py
+    ```
+
+
+## Usage
+
+1. Clone the repository to your local machine.
+
+2 .To run the script, you can execute the `main.py` file from your command line:
+
+    ```
+    python main.py
+    ```
+
+## Timeline
+
+This project took 3 days for completion.
+
+## Personal Situation
+This project was done as part of the AI Boocamp at BeCode.org. 
+
+Connect with me on [LinkedIn](https://www.linkedin.com/in/ariana-bik-62213a107/).
